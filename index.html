@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poultry Connect | Join the Network</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <div class="main-container">
+    <main class="content-side">
+      <div class="logo">
+        <i data-lucide="layout-grid"></i> Poultry Connect
+      </div>
+      
+      <h1>Connect your <span>Farm to Table</span> business.</h1>
+      
+      <p class="description">
+        The all-in-one network for poultry suppliers, resellers, and distributors. Manage stock and orders without the email chaos.
+      </p>
+
+      <div class="form-container">
+        <form onsubmit="handleForm(event)">
+            <p id="response-msg" style="font-size: 0.9rem; margin-top: 10px; font-weight: 600;"></p>
+          <div class="input-group">
+            <input type="email" placeholder="name@company.com" required>
+            <button type="submit">Get Early Access</button>
+          </div>
+        </form>
+        <p style="font-size: 0.8rem; color: #94a3b8; margin-top: 15px; display: flex; align-items: center; gap: 5px;">
+          <i data-lucide="check-circle-2" size="14"></i> Join 200+ poultry businesses already waiting.
+        </p>
+      </div>
+    </main>
+
+    <aside class="visual-side">
+      <div class="badge">Early Access 2026</div>
+      
+      <div class="feature-list">
+        <div class="feature-item">
+          <div class="icon"><i data-lucide="eye"></i></div>
+          <h3>Live Stock Visibility</h3>
+          <p>Instantly see what's available across your entire supplier network.</p>
+        </div>
+
+        <div class="feature-item">
+          <div class="icon"><i data-lucide="zap"></i></div>
+          <h3>One-Click Ordering</h3>
+          <p>Streamline procurement with automated digital order forms.</p>
+        </div>
+
+        <div class="feature-item">
+          <div class="icon"><i data-lucide="bar-chart"></i></div>
+          <h3>Market Analytics</h3>
+          <p>Predict demand and adjust pricing based on real-time data.</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <script>
+    lucide.createIcons();
+  </script>
+
+    <script src="index.js"></script>
+</body>
+</html> 
